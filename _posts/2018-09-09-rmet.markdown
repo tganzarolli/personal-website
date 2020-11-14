@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: rmet.png
+alt: Monalisa with eyes cropped
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Reading the Mind in the Eyes test, used as part of my master thesis project
+---
