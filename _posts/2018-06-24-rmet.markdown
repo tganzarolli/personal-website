@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2018-06-24
+img: rmet.png
+alt: Monalisa with eyes cropped
+project-date: August 2018
+code: https://github.com/tganzarolli/rmet
+demo: https://tganzarolli.github.io/rmet/introduction.html
+category: Theory of mind test
+description: Implementation of the "Reading the Mind in the Eyes Test", used as part of my master thesis project, in the context of the link between the <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115212">its results and collective intelligence</a>. 
+---

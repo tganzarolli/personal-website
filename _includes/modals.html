@@ -18,13 +18,7 @@
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
-                            <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Source-code:
-                                        <strong><a href="{{ post.code }}">{{ post.code }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
+                            <ul class="list-inline item-details">                                
                                 {% if post.project-date %}
                                     <li>Date:
                                         <strong>{{ post.project-date }}
@@ -37,7 +31,14 @@
                                         </strong>
                                     </li>
                                 {% endif %}
-                            </ul>
+                                {% if post.demo %}
+                                    <li><strong><a href="{{ post.demo }}" target="_blank">Live demo</a></strong>
+                                {% endif %}                                
+                                {% if post.code %}
+                                    (<a href="{{ post.code }}" target="_blank">source-code</a>)
+                                    </li>
+                                {% endif %}
+                            </ul>                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
